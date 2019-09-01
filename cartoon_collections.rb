@@ -14,7 +14,8 @@ def long_planeteer_calls(planateer_calls)
   planateer_calls.any? { |call| call.length > 4  }
 end
   long_planeteer_calls(planateer_calls)
-
+  
+may_be_cheese = %[car cat cheddar plane]
 def find_the_cheese(potentially_cheesy_items)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
