@@ -16,9 +16,9 @@ end
   long_planeteer_calls(planateer_calls)
 
 may_be_cheese = %[car cat cheddar plane]
-def find_the_cheese(potentially_cheesy_items)
+def find_the_cheese(may_be_cheese)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  potentially_cheesy_items.find {|is_it_cheese| cheese_types.include?(is_it_cheese)}
+  may_be_cheese.find {|is_it_cheese| cheese_types.include?(is_it_cheese)}
 end
-  find_the_cheese(potentially_cheesy_items)
+  find_the_cheese(may_be_cheese)
