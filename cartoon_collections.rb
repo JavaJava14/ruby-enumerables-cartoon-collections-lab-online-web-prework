@@ -6,7 +6,7 @@ end
 
 planateer_calls = %w[earth wind fire water heart]
 def summon_captain_planet(planateer_calls)
-  planateer_calls.map {|call| }
+  planateer_calls.map {|call| call}
 end
   summon_captain_planet(planateer_calls)
 
