@@ -1,7 +1,5 @@
 def roll_call_dwarves(dwarves)
-  dwarves.map { |e| } do
-    puts "#{e}"
-  end
+  dwarves.map { |e| puts "#{e}" }
 end
 
 def summon_captain_planet# code an argument here
