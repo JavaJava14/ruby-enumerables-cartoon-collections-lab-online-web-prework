@@ -18,6 +18,6 @@ end
 def find_the_cheese(potentially_cheesy_items)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.find {|is_it_cheese| cheese_types.include?(is_it_cheese)}
+  potentially_cheesy_items.find {|is_it_cheese| cheese_types.include?(is_it_cheese)}
 end
   find_the_cheese(potentially_cheesy_items)
