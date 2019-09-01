@@ -1,3 +1,4 @@
+dwarves = %w[Doc Dopey Bashful Grumpy Sneezy Sleepy Happy]
 def roll_call_dwarves(dwarves)
   dwarves.map { |e| puts "#{e}" }
 end
