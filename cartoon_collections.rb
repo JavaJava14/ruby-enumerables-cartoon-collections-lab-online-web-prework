@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarves)
-  dwarves.map { |e|  } do
+  dwarves.map { |e| } do
     puts "#{e}"
   end
 end
